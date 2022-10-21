@@ -1,0 +1,25 @@
+{
+  "name": "webgl-stuff",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode development"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^4.0.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^4.0.5",
+    "webgl-debug": "^2.0.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-glsl-loader": "^1.0.1",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
